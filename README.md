@@ -19,5 +19,5 @@ SpringBootDemo
   _Way 1_: 在控制台根目录下运行
 ```
 ./gradlew bootRun
-'''
-_Way 2_: 在Intellj中找到springBootDemo.java类，运行移动服务器。
+```  
+  _Way 2_: 在Intellj中找到springBootDemo.java类，运行移动服务器。
