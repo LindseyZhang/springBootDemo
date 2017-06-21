@@ -20,4 +20,4 @@ SpringBootDemo
 ```
 ./gradlew bootRun
 ```  
-  _Way 2_: 在Intellj中找到springBootDemo.java类，运行移动服务器。
+  _Way 2_: 在Intellj中找到springBootDemo.java类，运行启动服务器。
