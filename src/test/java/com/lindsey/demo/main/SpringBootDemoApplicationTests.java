@@ -1,4 +1,4 @@
-package com.lindsey.main;
+package com.lindsey.demo.main;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
