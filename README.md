@@ -6,11 +6,16 @@ SpringBootDemo
 
 ### Enviroment
   * 请保证开发环境含有jdk 1.8, Mysql 5.7+。
+  * 首次使用时在mysql中运行
+  ```
+  create database spring_boot_demo;
+  ```
+  创建数据库。
   
 ### Open In IntellJ
-  *  第一次pull该项目，在项目根目录下，使用
+  *  使用
     ```
-    ./gradlew idea
+    ./gradlew clean idea
     ```
     生成Intellj工程。
   * 使用Intellij打开生成的bulgari_backend.ipr文件
