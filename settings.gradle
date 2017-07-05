@@ -1,0 +1,4 @@
+rootProject.name="springBootDemo"
+
+include "hello"
+include "user"

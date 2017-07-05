@@ -10,22 +10,26 @@ buildscript {
 	}
 }
 
-apply plugin: 'java'
-apply plugin: 'checkstyle'
-apply plugin: 'idea'
-apply plugin: 'org.springframework.boot'
-
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 1.8
-
-repositories {
-	mavenCentral()
+allprojects {
+    apply plugin: 'idea'
+    apply plugin: 'java'
 }
 
-dependencies {
+subprojects {
+    apply plugin: 'checkstyle'
+	apply plugin: 'org.springframework.boot'
+
+	sourceCompatibility = 1.8
+
+	repositories {
+	    mavenCentral()
+	}
+
+    dependencies { compileOnly "org.projectlombok:lombok:1.16.16"
 	compile('org.flywaydb:flyway-core')
 	compile('org.springframework.boot:spring-boot-starter-jdbc')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+    }
 }
