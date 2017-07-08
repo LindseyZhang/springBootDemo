@@ -1,13 +1,18 @@
 package com.demo.hello.api;
 
 import com.demo.hello.api.dto.HelloDTO;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
+
+@Path("/hello")
+@Produces(APPLICATION_JSON)
 public class HelloApi {
 
-    @GetMapping("/hello")
+    @GET
     public HelloDTO hello() {
         return new HelloDTO("welcome", "lin");
     }

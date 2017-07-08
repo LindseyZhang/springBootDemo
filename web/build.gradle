@@ -1,10 +1,9 @@
 apply plugin: 'org.springframework.boot'
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-web')
     compile("org.springframework.boot:spring-boot-starter-jersey")
 
-    compile project(":common")
+    compile project(":hello")
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }

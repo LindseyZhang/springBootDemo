@@ -1,9 +1,11 @@
 dependencies {
     compile project(':enviroment')
+
     compileOnly "org.projectlombok:lombok:1.16.16"
     compile('org.flywaydb:flyway-core')
     compile('org.springframework.boot:spring-boot-starter-jdbc')
     runtime('mysql:mysql-connector-java')
+    compile 'javax.ws.rs:javax.ws.rs-api'
  
     testCompile "junit:junit"
 }

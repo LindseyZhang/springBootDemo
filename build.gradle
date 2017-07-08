@@ -31,6 +31,9 @@ subprojects {
     repositories {
         mavenCentral()
     }
+    dependencies {
+        compile('org.springframework.boot:spring-boot-starter-web')
+    }
 }
 
 task wrapper(type: Wrapper) {
