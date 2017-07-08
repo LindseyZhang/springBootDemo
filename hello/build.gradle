@@ -1,23 +1,4 @@
-buildscript {
-    repositories { mavenCentral() }
-}
-
-
-ext { springBootVersion = '1.5.2.RELEASE' }
-
-apply plugin: 'java'
-apply plugin: 'eclipse'
-
-
-sourceCompatibility = 1.8
-
-repositories { mavenCentral() }
-
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
-}
-
-dependencyManagement {
-    imports { mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}") }
+    compile project(':common')
+    compile 'junit:junit:4.12'
 }

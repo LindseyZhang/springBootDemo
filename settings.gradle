@@ -1,4 +1,4 @@
-rootProject.name="springBootDemo"
-
+include "common"
 include "hello"
 include "user"
+include "web"

@@ -1,0 +1,16 @@
+apply plugin: 'io.spring.dependency-management'
+dependencyManagement {
+    imports {
+	mavenBom "org.springframework.boot:spring-boot-dependencies:${springBootVersion}"
+	    mavenBom "io.spring.platform:platform-bom:Brussels-SR3"
+    }
+}
+
+dependencies {
+    compileOnly "org.projectlombok:lombok:1.16.16"
+    compile('org.flywaydb:flyway-core')
+    compile('org.springframework.boot:spring-boot-starter-jdbc')
+    runtime('mysql:mysql-connector-java')
+ 
+    testCompile "junit:junit"
+}
