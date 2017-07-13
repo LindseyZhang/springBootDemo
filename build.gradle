@@ -14,11 +14,19 @@ buildscript {
 
 allprojects {
     apply plugin: 'idea'
+
+
 }
 
 subprojects {
     apply plugin: 'java'
     sourceCompatibility = 1.8
+
+    apply plugin: 'checkstyle'
+    checkstyle {
+        toolVersion = 6.7
+        checkstyleMain.configFile = file("${rootProject.projectDir}/config/checkstyle/checkstyle.xml")
+    }
 
     apply plugin: 'io.spring.dependency-management'
     dependencyManagement {
