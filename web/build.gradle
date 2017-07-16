@@ -4,6 +4,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-jersey")
 
     compile project(":hello")
+    compile project(":user")
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }

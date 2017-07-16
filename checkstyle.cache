@@ -1,6 +1,10 @@
-#Thu Jul 13 21:50:05 CST 2017
-/Users/lpZhang/IdeaProjects/springBootDemo/hello/src/main/java/com/demo/hello/api/dto/HelloDTO.java=1499499248000
+#Sun Jul 16 14:01:05 CST 2017
 /Users/lpZhang/IdeaProjects/springBootDemo/web/src/main/java/com/demo/web/SpringBootDemoApplication.java=1499496736000
-/Users/lpZhang/IdeaProjects/springBootDemo/web/src/main/java/com/demo/web/config/MyResourceConfig.java=1499511268000
-/Users/lpZhang/IdeaProjects/springBootDemo/hello/src/main/java/com/demo/hello/api/HelloApi.java=1499953799000
+/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/model/User.java=1500179117000
+/Users/lpZhang/IdeaProjects/springBootDemo/hello/src/main/java/com/demo/hello/api/HelloApi.java=1500111942000
+/Users/lpZhang/IdeaProjects/springBootDemo/hello/src/main/java/com/demo/hello/api/dto/HelloDTO.java=1499499248000
+/Users/lpZhang/IdeaProjects/springBootDemo/web/src/main/java/com/demo/web/config/MyResourceConfig.java=1500175121000
+/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/api/UserApi.java=1500184832000
+/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/api/command/CreateUserCommand.java=1500178382000
+/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/api/dto/UserInfoDTO.java=1500178583000
 configuration*?=1EFADFCEB638B069F2F0A02CD661DC0A6F7418D0
