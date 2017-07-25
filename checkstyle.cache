@@ -1,10 +1,16 @@
-#Sun Jul 23 20:40:32 CST 2017
+#Sat Jul 29 16:21:40 CST 2017
+/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/api/facade/UserFacade.java=1501003946000
 /Users/lpZhang/IdeaProjects/springBootDemo/web/src/main/java/com/demo/web/SpringBootDemoApplication.java=1499496736000
-/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/model/User.java=1500179117000
-/Users/lpZhang/IdeaProjects/springBootDemo/hello/src/main/java/com/demo/hello/api/HelloApi.java=1500111942000
+/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/repository/UserRepositoryJPA.java=1501004329000
+/Users/lpZhang/IdeaProjects/springBootDemo/common/src/main/java/com/demo/response/SimpleResponseWarpper.java=1501003861000
+/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/model/User.java=1501316490000
+/Users/lpZhang/IdeaProjects/springBootDemo/hello/src/main/java/com/demo/hello/api/HelloApi.java=1500816007000
 /Users/lpZhang/IdeaProjects/springBootDemo/hello/src/main/java/com/demo/hello/api/dto/HelloDTO.java=1499499248000
 /Users/lpZhang/IdeaProjects/springBootDemo/web/src/main/java/com/demo/web/config/MyResourceConfig.java=1500175121000
-/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/api/UserApi.java=1500184832000
+/Users/lpZhang/IdeaProjects/springBootDemo/web/src/main/java/com/demo/SpringBootDemoApplication.java=1501003263000
 /Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/api/command/CreateUserCommand.java=1500178382000
+/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/api/UserApi.java=1501004224000
+/Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/model/UserRepository.java=1501003933000
 /Users/lpZhang/IdeaProjects/springBootDemo/user/src/main/java/com/demo/user/api/dto/UserInfoDTO.java=1500178583000
-configuration*?=1EFADFCEB638B069F2F0A02CD661DC0A6F7418D0
+/Users/lpZhang/IdeaProjects/springBootDemo/web/src/main/java/com/demo/config/MyResourceConfig.java=1501003289000
+configuration*?=98074194000CD7B8F9B2DDC7A7660CD513B2A35E

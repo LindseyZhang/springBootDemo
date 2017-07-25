@@ -145,7 +145,7 @@
         <!-- Length check -->
         <module name="LineLength">
             <!-- Checks if a line is too long. -->
-            <property name="max" value="${com.puppycrawl.tools.checkstyle.checks.sizes.LineLength.max}" default="112"/>
+            <property name="max" value="${com.puppycrawl.tools.checkstyle.checks.sizes.LineLength.max}" default="120"/>
             <property name="severity" value="error"/>
 
             <!--
@@ -247,7 +247,6 @@
         <module name="RedundantModifier"/>
         <module name="EmptyBlock" />
         <module name="NeedBraces" />
-        <module name="RightCurly" />
         <module name="AvoidNestedBlocks" />
 
         <module name="CovariantEquals" />
@@ -290,7 +289,6 @@
         <module name="CyclomaticComplexity">
             <property name="max" value="7"/>
         </module>
-        <module name="UpperEll"/>
         <module name="ArrayTypeStyle" />
     </module>
 
