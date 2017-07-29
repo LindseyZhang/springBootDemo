@@ -38,7 +38,6 @@ public class UserApi {
     @POST
     public Response addUser(CreateUserCommand createUserCommand) {
         Long id = userFacade.addUser(createUserCommand);
-        System.out.println("id = " + id);
         return ok(new SimpleResponseWarpper("id", String.valueOf(id))).build();
     }
 }
