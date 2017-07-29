@@ -1,18 +1,20 @@
 package com.demo.user.api;
 
 import com.demo.response.SimpleResponseWarpper;
+import com.demo.user.api.command.AuthenticationCommand;
 import com.demo.user.api.command.CreateUserCommand;
 import com.demo.user.api.facade.UserFacade;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.validation.Valid;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 
-import static com.demo.user.api.dto.UserInfoDTO.userInfoDTO;
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 import static javax.ws.rs.core.Response.ok;
 
@@ -28,11 +30,15 @@ public class UserApi {
     }
 
     @GET
-    public Response userHello() {
-        return ok(userInfoDTO().withUsername("linping")
-                .withPhone("1234567890")
-                .withAddress("china")
-                .build()).build();
+    @Path("/{id}")
+    public Response user(@PathParam("id") Long id) {
+        return ok(userFacade.get(id)).build();
+    }
+
+    @POST
+    @Path("/login")
+    public Response login(@Valid AuthenticationCommand authCommand) {
+        return ok(userFacade.login(authCommand)).build();
     }
 
     @POST
